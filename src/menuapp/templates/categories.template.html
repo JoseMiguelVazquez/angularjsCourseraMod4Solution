@@ -1,0 +1,8 @@
+<ul>
+    <li ng-repeat="category in $ctrl.categories">
+        <a ui-sref="items({itemId: category.short_name})">
+            {{ category.name }} - {{ category.short_name }}
+        </a>
+            
+    </li>
+</ul>
